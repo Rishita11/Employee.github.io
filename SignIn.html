@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>SignIn</title>
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+</head>
+<style type="text/css">
+	h1,p,h4,h3{
+    text-align: center;
+  }
+  body{
+      background-color:  #FFDDE1;
+     }
+     
+     .container{
+      padding: 16px;
+     }
+     
+     input[type=text], input[type=password]
+     {
+      width: 100%;
+      padding:20px;
+        margin:5px 0 22px 0;
+        display: inline-block;
+        border: none;
+
+     }  
+     
+     input[type=text]: focus, input[type=password]:focus{
+      outline: none;
+     }
+
+     hr {
+         border: 1px solid #f1f1f1;
+         margin-bottom: 25px;
+        } 
+
+     .registerbtn {
+         background-color: #04AA6D;
+         color: white;
+         padding: 16px 20px;
+         margin: 8px 0;
+         border: none;
+         cursor: pointer;
+         width: 100%;
+         opacity: 0.9;
+       }
+
+      .registerbtn:hover {
+       opacity:1;
+       } 
+     
+</style>
+
+<body>
+       <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="slideshow.html">
+      EMPLOYEE
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarText">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="file:///C:/Users/HP/Desktop/Web%20dev/employee/home.html">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item active">
+        <a class="nav-link" href="file:///C:/Users/HP/Desktop/Web%20dev/employee/SignUp.html">Sign Up</a>
+       </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="file:///C:/Users/HP/Desktop/Web%20dev/employee/SignIn.html">Sign In</a>
+      </li>
+      </ul>
+      </div>
+    </nav>
+    
+       <div class="SignUp">
+       <h1>Sign In </h1>
+       <p>Welcome back!!!</p>
+       </div>
+    <h3>Continue with</h3>
+   <div class="info">
+    <div class="container">
+    <div class="text-center">
+            <a href="https://www.linkedin.com/login" class="btn btn-primary">Go to LinkedIN</a>
+            <a href="https://accounts.google.com/servicelogin" class="btn btn-danger">Go to Google</a>
+    </div>
+           <h4>OR</h4>
+        <hr>
+       <label for="email"><b>EMAIL</b></label>
+       <input type="text" name="email" placeholder="Enter your email" id="email">
+
+       
+
+       <label for="psw"><b>Password</b></label>
+       <input type="password" placeholder="Enter Password" name="psw" id="psw" required>
+
+       
+       
+       <button type="submit" class="registerbtn">SUBMIT</button>
+       </div>
+
+       
+
+
+
+</body>
+</html>
